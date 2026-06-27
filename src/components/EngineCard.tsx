@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, ExternalLink, Github, Package, Clock, Gauge } from 'lucide-react';
+import { ChevronDown, ExternalLink, Link, Package, Clock, Gauge } from 'lucide-react';
 import CodeBlock from './CodeBlock';
 
 interface EngineCardProps {
@@ -81,7 +81,7 @@ export default function EngineCard({
                   className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-neon-blue transition-colors"
                   onClick={(e) => e.stopPropagation()}
                 >
-                  <Github className="w-3.5 h-3.5" />
+                  <Link className="w-3.5 h-3.5" />
                   <span>Repo</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>

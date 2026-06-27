@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Cpu, Users, Layers, Github, Zap } from 'lucide-react';
+import { Cpu, Users, Layers, Link, Zap } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -76,7 +76,7 @@ export default function Header() {
             {[
               { icon: Cpu, label: 'OCR Engines', value: '4' },
               { icon: Users, label: 'Team Members', value: '5' },
-              { icon: Github, label: 'Repositories', value: '4' },
+              { icon: Link, label: 'Repositories', value: '4' },
             ].map((stat, i) => (
               <div
                 key={i}

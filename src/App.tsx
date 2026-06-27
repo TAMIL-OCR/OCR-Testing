@@ -8,7 +8,6 @@ import {
   BarChart3,
   AlertTriangle,
   BookOpen,
-  ExternalLink,
   CheckCircle2,
   XCircle,
   Info,
